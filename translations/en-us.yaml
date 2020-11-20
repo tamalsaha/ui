@@ -8493,7 +8493,7 @@ customDrivers:
   clusters: Cluster Drivers
 
 clusterDrivers:
-  add: Add Cluster Driver
+  add: Tamal Cluster Driver
   refresh: Refresh Kubernetes Metadata
   builtIn: Built-In
   table:
