@@ -289,7 +289,7 @@ export default Resource.extend(Grafana, ResourceUsage, {
         case 'rancherd':
           return intl.t('clusterNew.rancherd.shortLabel');
         default:
-          return driverName.capitalize();
+          return configName + '-' + driverName.capitalize();
         }
       } else {
         return intl.t('clusterNew.import.shortLabel');
