@@ -36,13 +36,13 @@ var KontainerDriver = Resource.extend({
     const keyById = `kontainerDriver.displayName.${ get(this, 'id') }`;
 
     if ( name && intl.exists(keyByName) ) {
-      return intl.t(keyByName);
+      return 'keyByName-' + intl.t(keyByName);
     } if ( intl.exists(keyById) ) {
-      return intl.t(keyById);
+      return 'keyById' + intl.t(keyById);
     } else if ( name ) {
-      return name.capitalize();
+      return 'name-' + name.capitalize();
     } else {
-      return `(${  get(this, 'id')  })`;
+      return 'id-'+ `(${  get(this, 'id')  })`;
     }
   }),
 

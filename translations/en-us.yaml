@@ -4182,6 +4182,9 @@ clusterNew:
       quick: Quick Create
       custom: Custom Create
       existing: Existing
+  linodelke:
+    label: Linode Kubernetes Engine
+    shortLabel: Linode OKE
   rancherd:
     shortLabel: RancherD
 
@@ -8490,7 +8493,7 @@ customDrivers:
   clusters: Cluster Drivers
 
 clusterDrivers:
-  add: Add Cluster Driver
+  add: Tamal Cluster Driver
   refresh: Refresh Kubernetes Metadata
   builtIn: Built-In
   table:
@@ -8509,6 +8512,7 @@ kontainerDriver:
     tencentkubernetesengine: Tencent TKE
     baiducloudcontainerengine: Baidu CCE
     oraclecontainerengine: Oracle OKE
+    linodecontainerengine: Linode LKE
 
 
 nodeDriver:
@@ -8535,7 +8539,7 @@ nodeDriver:
     huaweicce: Huawei CCE
     import: Other
     importeks: Amazon EKS
-    linode: Linode
+    linode: Linode LKE
     oci: Oracle Cloud Infrastructure
     openstack: OpenStack
     oracleoke: Oracle OKE
