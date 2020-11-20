@@ -8539,7 +8539,7 @@ nodeDriver:
     huaweicce: Huawei CCE
     import: Other
     importeks: Amazon EKS
-    linode: Linode
+    linode: Linode LKE
     oci: Oracle Cloud Infrastructure
     openstack: OpenStack
     oracleoke: Oracle OKE
