@@ -224,6 +224,8 @@ export default Resource.extend(Grafana, ResourceUsage, {
       return 'huaweicce';
     case 'okeEngineConfig':
       return 'oracleoke';
+    case 'linodeEngineConfig':
+      return 'linodelke';
     case 'rke2Config':
       return 'rke2';
     case 'rancherKubernetesEngineConfig':
@@ -264,6 +266,8 @@ export default Resource.extend(Grafana, ResourceUsage, {
       return intl.t('clusterNew.huaweicce.shortLabel');
     case 'okeEngineConfig':
       return intl.t('clusterNew.oracleoke.shortLabel');
+    case 'linodeEngineConfig':
+      return intl.t('clusterNew.linodelke.shortLabel');
     case 'k3sConfig':
       return intl.t('clusterNew.k3simport.shortLabel');
     case 'rke2Config':

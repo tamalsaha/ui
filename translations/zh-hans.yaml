@@ -8446,6 +8446,7 @@ kontainerDriver:
     tencentkubernetesengine: Tencent TKE
     baiducloudcontainerengine: Baidu CCE
     oraclecontainerengine: Oracle OKE
+    linodecontainerengine: Linode LKE
 
 
 nodeDriver:

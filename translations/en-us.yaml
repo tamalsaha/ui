@@ -4182,6 +4182,9 @@ clusterNew:
       quick: Quick Create
       custom: Custom Create
       existing: Existing
+  linodelke:
+    label: Linode Kubernetes Engine
+    shortLabel: Linode OKE
   rancherd:
     shortLabel: RancherD
 
@@ -8509,6 +8512,7 @@ kontainerDriver:
     tencentkubernetesengine: Tencent TKE
     baiducloudcontainerengine: Baidu CCE
     oraclecontainerengine: Oracle OKE
+    linodecontainerengine: Linode LKE
 
 
 nodeDriver:
